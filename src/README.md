@@ -3,4 +3,4 @@
 Автотесты для CRUD-запросов сервиса продуктов с использованием retrofit.
 
 ## Майнд-карта проверок
-![xmind](src/resources/Market.png "Optional title")
+![xmind](https://github.com/sv3tlana742/retrofitLesson/blob/master/src/resources/Market.png "Optional title")
