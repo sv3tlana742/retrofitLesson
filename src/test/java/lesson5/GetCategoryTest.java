@@ -1,6 +1,8 @@
 package lesson5;
 
 import lesson5.dto.GetCategoryResponse;
+import lesson5.enums.CategoryType;
+import lesson5.enums.NumericField;
 import lesson5.service.CategoryService;
 import lesson5.util.RetrofitUtils;
 import lombok.SneakyThrows;

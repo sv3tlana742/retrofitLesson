@@ -1,11 +1,9 @@
 package lesson5;
 
-import com.github.javafaker.Faker;
 import lesson5.dto.Product;
-import lesson5.service.ProductService;
-import lesson5.util.RetrofitUtils;
+import lesson5.enums.NumericField;
+import lesson5.enums.TextField;
 import lombok.SneakyThrows;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;

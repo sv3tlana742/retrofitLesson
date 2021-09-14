@@ -2,13 +2,16 @@ package lesson5;
 
 import com.github.javafaker.Faker;
 import lesson5.dto.Product;
+import lesson5.enums.CategoryType;
+import lesson5.enums.NumericField;
+import lesson5.enums.TextField;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
 import retrofit2.Response;
 
-import static lesson5.AssertMethod.negativeAssert400;
+import static lesson5.AssertMethod.*;
 
 public class CreateProductNegativeTest extends BaseTest {
 

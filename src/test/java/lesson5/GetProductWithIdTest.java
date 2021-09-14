@@ -1,11 +1,10 @@
 package lesson5;
 
 import lesson5.dto.Product;
-import lesson5.service.ProductService;
-import lesson5.util.RetrofitUtils;
+import lesson5.enums.CategoryType;
+import lesson5.enums.NumericField;
 import lombok.SneakyThrows;
 import okhttp3.ResponseBody;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;

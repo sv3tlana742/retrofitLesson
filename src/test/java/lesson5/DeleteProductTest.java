@@ -2,6 +2,8 @@ package lesson5;
 
 import com.github.javafaker.Faker;
 import lesson5.dto.Product;
+import lesson5.enums.CategoryType;
+import lesson5.enums.NumericField;
 import lombok.SneakyThrows;
 import okhttp3.ResponseBody;
 import org.hamcrest.CoreMatchers;
